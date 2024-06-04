@@ -35,7 +35,7 @@ Intel NICs are supported. To use other NICs you must use a diffrent kexts.
 Fenvi BCM94360NG and BCM94352Z works on Somona after applying OCLP root patches and supports features like AirDrop, Continuity, etc. Before Sonoma, it works out of the box. To use other wireless cards you must use kexts.
 
 ### BIOS Settings
-In addition to setting the BIOS settings given in the OpenCore guide, you need to set a few things in the BIOS that are not available through settings. To do this, you need to use the `setup_efi.var` application and set the offsets according to your laptop model and BIOS version. To be sure of the settings offsets, I recommend extracting your current BIOS. Detailed instructions are available online. I recommend caution, these actions may damage your laptop.  
+In addition to setting the BIOS settings given in the OpenCore guide, you need to set a few things in the BIOS that are not available through settings. To do this, you need to use the `setup_var.efi` application and set the offsets according to your laptop model and BIOS version. To be sure of the settings offsets, I recommend extracting your current BIOS. Detailed instructions are available online. I recommend caution, these actions may damage your laptop.  
 CFG Lock: Disabled  
 DVMT Pre-Allocated: 64M  
 DVMT Total Gfx Mem: MAX  
@@ -92,4 +92,5 @@ This build has security features such as Secure Boot, System Integrity Protectio
  - [[Tool] MountEFI](https://github.com/corpnewt/MountEFI) 
  - [[Tool] ocvalidate](https://github.com/acidanthera/OpenCorePkg) 
  - [[Tool] OCConfigCompare](https://github.com/corpnewt/OCConfigCompare) 
+ - [[Tool] setup_var.efi](https://github.com/datasone/setup_var.efi)
  - [Dortania](https://dortania.github.io/) for config guides
