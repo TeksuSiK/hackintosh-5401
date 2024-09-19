@@ -6,15 +6,16 @@
 | CPU | Intel Core i7-9850H @ 2.6GHz to 4.6GHz |
 | RAM | 32GB (2 x 16GB) @ 2667MHz |
 | GPU | Intel UHD Graphics 630 |
-| OS Disk | Crucial P5 Plus 500GB |
+| OS Disk | Lexar NM790 2TB |
 | Ethernet | Intel I219-LM |
 | WiFi & Bluetooth | Fenvi BCM94360NG |
 
-**macOS version:** macOS Sonoma 14.5 (23F79)  
+**macOS version:** macOS Sequoia 15.0 (24A335)  
 **OpenCore version:** 1.0.0 + OCLP  
-**SMBIOS:** MacBookPro16,1  
+**SMBIOS:** MacBookPro16,3  
 
 ## Software compatibility
+ - Sequoia (15.x)
  - Sonoma (14.x)
  - Ventura (13.x)
  - Monterey (12.x)
@@ -58,7 +59,7 @@ This build has security features such as Secure Boot, System Integrity Protectio
 ## Installation
  1. Use [this](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) guide to create USB with macOS recovery.
  2. Clone this repository and copy "BOOT" and "OC" directories to "EFI" directory on your USB.
- 3. Modify "MLB", "ROM", "SystemSerialNumber" and "SystemUUID" in EFI/OC/config.plist using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) script with MacBookPro16,1 SMBIOS. You can find more detailed instructions [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#platforminfo).
+ 3. Modify "MLB", "ROM", "SystemSerialNumber" and "SystemUUID" in EFI/OC/config.plist using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) script with MacBookPro16,3 SMBIOS. You can find more detailed instructions [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#platforminfo).
  4. Follow [Dortania](https://dortania.github.io/OpenCore-Post-Install/) post-install guide.
 
 ## Credits
