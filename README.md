@@ -1,5 +1,3 @@
-# This repository is now archived as I no longer use this hardware
-
 ![Screenshot](screenshot.png)
 
 ## Specification
@@ -8,12 +6,12 @@
 | CPU | Intel Core i7-9850H @ 2.6GHz to 4.6GHz |
 | RAM | 32GB (2 x 16GB) @ 2667MHz |
 | GPU | Intel UHD Graphics 630 |
-| OS Disk | Lexar NM790 2TB |
+| OS Disk | Crucial P5 Plus 500GB |
 | Ethernet | Intel I219-LM |
 | WiFi & Bluetooth | Fenvi BCM94360NG |
 
-**macOS version:** macOS Sequoia 15.0 (24A335)  
-**OpenCore version:** 1.0.0 + OCLP  
+**macOS version:** macOS Sequoia 15.5 (24F74)  
+**OpenCore version:** 1.0.5 + OCLP  
 **SMBIOS:** MacBookPro16,3  
 
 ## Software compatibility
